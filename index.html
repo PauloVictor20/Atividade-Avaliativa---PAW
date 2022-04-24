@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação IPW - PAULO VICTOR</title>
+    <link rel="stylesheet" href="avaliacao.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+    <main>
+        <div id="moviePoster" >  
+            <div class="omdbrating"> 
+                <span id="icone"><i class="fa-solid fa-star"></i></span> 
+
+                <span id="imdbRating">Score</span> 
+            </div>
+        </div>
+
+        <div class="description">
+
+            <form id="formSearch" action=""> 
+                <input id="title" type="text" placeholder="Informe o Título do Filme"> 
+                <input type="submit" value="Pesquisar" id="botao1"> 
+            </form>
+            <div id="descriptionBodyNotFound"> 
+            </div>
+            <div id="descriptionBody"> 
+                <h1 id="movieTitle">Olá, Seja Bem Vindo!</h1> 
+                <h2 id="movieTitle2"> <b>Qual Filme Você Deseja Pesquisar?</b></h2> 
+                <span id="movieinferior"><a target="_blank"  id="movieapi" href="https://www.omdbapi.com/">API OMDb</a> <span id="movieavaliacao">IFPI - Avaliação PAW</span></span> 
+                <p id="moviename"> <b>Paulo Victor Santos Moura</b></p> 
+                <p><span class="infoBlue" id="movieYear"></span> <span id="movieGenre"></span> <span 
+                        class="infoBlue" id="movieRuntime"></span></p> 
+                <p id="movieInfo"></p> 
+                <div id="movies"> 
+                    <p> <strong id="movieescritor"> </strong> <span id="movieWriter"></span> </p> 
+                    <p> <strong id="moviedirector"></strong> <span id="movieDirector"></span></p> 
+                </div>
+            
+            </div>
+
+            
+        </div>
+    </main>
+
+    <script src="avaliacao.js"></script> 
+</body>
+
+</html>
